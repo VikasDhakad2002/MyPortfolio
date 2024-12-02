@@ -1,0 +1,92 @@
+body {
+    /* Set the background image */
+    background-image: url('image/2.png');
+    /* Center the background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc center;
+}
+
+.about-content {
+    text-align: center;
+    padding: 20px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+h2:hover{
+    text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 10px rgba(0, 123, 255, 0.9), 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+p {
+    color: white;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 80px;
+    left: 30px;
+    right: 30px;
+    bottom: 50px;
+    font-size: 20px;
+    font-style: oblique;
+    line-height: 1.2em;
+}
+
+
+.navigation-container {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%); /* Center the container vertically using transform */
+}
+
+.navigation-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-container li {
+    margin-bottom: 25px;
+}
+
+.navigation-container a {
+    display: block;
+    padding: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #000;
+    background-color: #f0f0f0;
+    ;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 25px rgba(0, 123, 255, 0.9), 0 0 35px rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navigation-container a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.switch {
+    margin-top: 550px;
+    margin-left: 145px;
+  
+}
+
+.myswitch {
+    display: inline-block;
+    padding: 10px 60px;
+    margin-top: 0px;
+    margin-left: 430px;
+    border-radius: 15px; /* Make it square with round corners */
+    text-decoration: none;
+    color: #000; /* Black text color */
+    background-color: #fff; /* White background color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(0, 123, 255, 0.7), 0 0 30px rgba(0, 0, 0, 0.7); /* White to blue to black shadow */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
